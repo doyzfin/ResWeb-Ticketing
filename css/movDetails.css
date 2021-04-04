@@ -1,0 +1,359 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+/* NAVBAR AND FOOTER */
+.home-nav,
+.ticket-nav,
+.film-nav {
+  margin: 15px;
+  font-family: "Mulish", sans-serif;
+  color: #414141;
+  font-weight: 600 !important;
+}
+
+.loc-nav,
+.src-nav,
+.btn-nav {
+  margin: 15px;
+}
+.loc-nav a,
+.btn-nav a {
+  font-family: "Mulish", sans-serif;
+  color: #414141;
+  text-decoration: none;
+  font-weight: 600 !important;
+}
+.sign-in {
+  background-color: #5f2eea !important;
+}
+.sign-in:hover {
+  background-color: #4f4eea !important;
+}
+.sign-in a {
+  text-decoration: none;
+  color: white;
+  margin-left: 12px;
+  margin-right: 12px;
+  font-size: 14px;
+}
+.sign-in a:hover {
+  color: black;
+}
+.text-note {
+  font-family: "Mulish", sans-serif;
+  color: #6e7191;
+  font-size: 16px;
+  margin-top: 25px;
+  line-height: 25px;
+  margin-bottom: 45px;
+  font-weight: 400 !important;
+}
+.col-two-logo::before {
+  content: url("/img/4.png");
+  margin-right: 12px;
+}
+.col-three-logo::before {
+  content: url("/img/instagram.png");
+  margin-right: 12px;
+}
+.col-four-logo::before {
+  content: url("/img/5.png");
+  margin-right: 12px;
+}
+.col-five-logo::before {
+  content: url("/img/youtube.png");
+  margin-right: 12px;
+}
+.col-five-logo {
+  margin-bottom: 45px;
+}
+.copyright p {
+  font-family: "Mulish", sans-serif;
+  color: #6e7191;
+  font-size: 14px;
+  font-weight: 400 !important;
+}
+.flex-container-2 {
+  flex-direction: column;
+  display: flex;
+  flex-wrap: wrap;
+}
+.flex-container-3 {
+  flex-direction: column;
+  display: flex;
+  flex-wrap: wrap;
+}
+.col-one {
+  flex: 1;
+  margin-bottom: 10px;
+  font-family: "Mulish", sans-serif;
+}
+.flex-container {
+  display: flex;
+}
+.col-two,
+.col-three,
+.col-four,
+.col-five {
+  flex: 1;
+  font-family: "Mulish", sans-serif;
+  color: #4e4b66;
+  line-height: 28px;
+  font-size: 14px;
+  font-weight: 400 !important;
+}
+.col-five {
+  margin-bottom: 45px;
+}
+.col-two-img,
+.col-three-img,
+.col-four-img {
+  margin-top: 18px;
+}
+.col-four-img {
+  margin-bottom: 45px;
+}
+.col-two-logo,
+.col-three-logo,
+.col-four-logo,
+.col-five-logo {
+  margin-top: 18px;
+  font-family: "Mulish", sans-serif;
+  color: #6e7191;
+  font-weight: 600px !important;
+}
+.flex-right {
+  margin-top: 25px;
+}
+.img-pp {
+  padding-bottom: 10px;
+}
+.left-img {
+  padding-right: 28px !important;
+}
+.right-img {
+  padding-left: 28px !important;
+}
+/* MOVIE DETAILS */
+.mv-spd {
+  padding: 47.58px 47.64px !important;
+  border-radius: 12px !important;
+  width: 100%;
+}
+.title-mv {
+  font-family: "Mulish", sans-serif;
+  font-weight: 700 !important;
+  font-size: 34px;
+  margin-bottom: 5px;
+}
+.genre-mv {
+  font-family: "Mulish", sans-serif;
+  font-weight: 400 !important;
+  font-size: 18px;
+  color: #4e4b66;
+}
+.note-mv-1 {
+  font-family: "Mulish", sans-serif;
+  font-weight: 400 !important;
+  font-size: 14px;
+  color: #8692a6;
+}
+.note-mv-2 {
+  font-family: "Mulish", sans-serif;
+  font-weight: 400 !important;
+  font-size: 16px;
+}
+.box-mv {
+  margin-bottom: 32px;
+}
+.box-mv-date,
+.box-mv-time,
+.box-mv-direct,
+.box-mv-cast {
+  margin-bottom: 25px;
+}
+.sinopsys {
+  margin-top: 48px;
+  margin-bottom: 136px;
+}
+.ttl-sns {
+  font-family: "Mulish", sans-serif;
+  font-weight: 600 !important;
+  font-size: 20px;
+}
+.note-sns {
+  color: #4e4b66;
+  font-family: "Mulish", sans-serif;
+  font-weight: 400 !important;
+  font-size: 16px;
+  text-align: justify;
+}
+.text-show {
+  font-family: "Mulish", sans-serif;
+  font-weight: 700 !important;
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+.loc-btn {
+  background-color: #eff0f6 !important;
+  border-color: #eff0f6 !important;
+  font-family: "Mulish", sans-serif;
+  font-weight: 600 !important;
+  color: #4e4b66 !important;
+  padding-right: 120px !important;
+  font-size: 16px;
+}
+.loc-btn::before {
+  content: url("/img/locDrop.png");
+  margin-right: 12px;
+}
+.loc-btn-toggle {
+  padding: 0px;
+  margin: 0px;
+  height: 37px;
+  background-color: #eff0f6 !important;
+  border-color: #eff0f6 !important;
+  color: #4e4b66 !important;
+}
+.date-btn {
+  background-color: #eff0f6 !important;
+  border-color: #eff0f6 !important;
+  font-family: "Mulish", sans-serif;
+  font-weight: 600 !important;
+  color: #4e4b66 !important;
+  padding-right: 120px !important;
+  font-size: 16px;
+}
+.date-btn::before {
+  content: url("/img/calendar-interface-symbol-tool.png");
+
+  margin-right: 12px;
+}
+.box-button {
+  margin-bottom: 72px;
+}
+.dropdown-1 {
+  margin-bottom: 5px;
+}
+.name-brand {
+  font-family: "Mulish", sans-serif;
+  font-size: 24px;
+  font-weight: 600 !important;
+  margin-bottom: 5px;
+}
+.add-brand {
+  font-family: "Mulish", sans-serif;
+  font-size: 12px;
+  font-weight: 300 !important;
+  color: #6e7191;
+}
+.time-mv {
+  padding: 12px;
+  font-family: "Mulish", sans-serif;
+  font-size: 12px;
+  font-weight: 600 !important;
+}
+.blck {
+  color: #4e4b66;
+}
+.light {
+  color: #6e7191;
+}
+.grey {
+  color: #a0a3bd;
+}
+.prc {
+  font-family: "Mulish", sans-serif;
+  font-weight: 400 !important;
+  font-size: 16px;
+  color: #6b6b6b;
+}
+.usd {
+  font-family: "Mulish", sans-serif;
+  font-weight: 600 !important;
+  font-size: 16px;
+  text-align: left;
+}
+.price-usd {
+  margin-top: 24px;
+}
+.bottom-left a {
+  margin-top: 32px;
+  padding: 10px 12px;
+  width: 70%;
+  font-family: "Mulish", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  background-color: #5f2eea;
+  border-color: #5f2eea;
+}
+.bottom-right a {
+  font-family: "Mulish", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #5f2eea;
+  margin-top: 42px;
+  margin-left: 80px;
+  text-align: center;
+}
+.box-1 {
+  border-bottom: 1px solid #dedede;
+}
+.col-1 {
+  border-radius: 15px;
+  padding: 15px !important;
+  margin-bottom: 32px;
+}
+.brand-1 {
+  margin-top: 15px;
+}
+.brand-2 {
+  margin-top: 35px;
+}
+.brand-3 {
+  margin-top: 30px;
+}
+.top-right {
+  margin-top: 15px;
+}
+.lght {
+  background-color: #5f2eea;
+  color: black !important;
+  border: 0, 5px solid #dedede !important;
+  border-radius: 9px !important;
+  font-family: "Mulish", sans-serif !important;
+  font-weight: 400 !important;
+  font-size: 18px !important;
+}
+.lght:hover {
+  background-color: #5f2eea !important;
+  color: white !important;
+  border: 0.5px solid #5f2eea !important;
+  box-shadow: 1px #dedede !important;
+}
+.btn-btnbottom {
+  margin-top: 60px;
+  margin-bottom: 83px;
+}
+/* FLEX TOP&BOTTOM */
+.flex-container-top,
+.flex-container-bottom {
+  display: flex;
+}
+.top-left,
+.top-right {
+  flex: 1;
+}
+.bottom-left,
+.bottom-right {
+  flex: 1;
+}

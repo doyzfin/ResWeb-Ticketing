@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/movDetails.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+      crossorigin="anonymous"
+    />
+    <title>Movies</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-sm">
+      <div class="container">
+        <a class="navbar-brand" href="/signin.html"
+          ><img class="img-brand" src="/img/logo-header.png" alt=""
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"
+            ><img src="/img/search.png" alt=""
+          /></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="home-nav nav-link active" aria-current="page" href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="film-nav nav-link" href="#">Cinemas</a>
+            </li>
+            <li class="nav-item">
+              <a class="ticket-nav nav-link" href="#">Buy Ticket</a>
+            </li>
+          </ul>
+          <div class="d-flex">
+            <ul class="navbar-nav flex-right">
+              <li class="loc-nav nav-item dropdown">
+                <a
+                  href="#"
+                  class="nav-link dropdown-toggle"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Location
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="#">Jakarta</a></li>
+                  <li><a class="dropdown-item" href="#">Bogor</a></li>
+                </ul>
+              </li>
+              <li class="src-nav nav-item dropdown">
+                <a
+                  href="#"
+                  class="nav-link"
+                  id="searchDropdown"
+                  role="img"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <img src="/img/header-search.png" alt="" />
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="searchDropdown">
+                  <li>
+                    <form>
+                      <input
+                        class="form-control"
+                        type="search"
+                        placeholder="Search"
+                        aria-label="Search"
+                      />
+                    </form>
+                  </li>
+                </ul>
+              </li>
+              <li class="btn-nav nav-item">
+                <a href="#"><img src="/img/PP.png" class="img-pp" /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4 left-img">
+          <img src="/img/spd.png" class="img-thumbnail mv-spd" />
+        </div>
+        <div class="col-sm-8 right-img">
+          <div class="box-mv">
+            <p class="title-mv">Spider-Man: Homecoming</p>
+            <p class="genre-mv">Adventure, Action, Sci-Fi</p>
+          </div>
+          <div class="box-mv-date">
+            <p class="note-mv-1">Release date</p>
+            <p class="note-mv-2">June 28, 2017</p>
+          </div>
+          <div class="box-mv-time">
+            <p class="note-mv-1">Duration</p>
+            <p class="note-mv-2">2 hours 13 minutes</p>
+          </div>
+          <div class="box-mv-direct">
+            <p class="note-mv-1">Directed by</p>
+            <p class="note-mv-2">Jon Watss</p>
+          </div>
+          <div class="box-mv-cast">
+            <p class="note-mv-1">Casts</p>
+            <p class="note-mv-2">
+              Tom Holland, Michael Keaton, Robert Downey Jr., ...
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="sinopsys">
+        <p class="ttl-sns"><strong>Synopsis</strong></p>
+        <p class="note-sns">
+          Thrilled by his experience with the Avengers, Peter returns home,
+          where he lives with his Aunt May, under the watchful eye of his new
+          mentor Tony Stark, Peter tries to fall back into his normal daily
+          routine - distracted by thoughts of proving himself to be more than
+          just your friendly neighborhood Spider-Man - but when the Vulture
+          emerges as a new villain, everything that Peter holds most important
+          will be threatened.
+        </p>
+      </div>
+    </div>
+    <div class="container">
+      <div class="show">
+        <p class="text-show text-center">Showtimes and Tickets</p>
+      </div>
+      <div class="box-button">
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+              <div class="dropdown-1">
+                <button type="text" class="date-btn btn btn-secondary">
+                  21/07/20
+                </button>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="dropdown-2">
+              <button type="button" class="loc-btn btn btn-secondary">
+                Purwokerto
+              </button>
+              <button
+                type="button"
+                class="loc-btn-toggle btn btn-lg btn-secondary dropdown-toggle dropdown-toggle-split"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                <span class="visually-hidden">Toggle Dropdown</span>
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
+                <li><a class="dropdown-item" href="#">Jakarta</a></li>
+                <li><a class="dropdown-item" href="#">Bogor</a></li>
+                <li><a class="dropdown-item" href="#">Surabaya</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4 shadow col-1">
+          <div class="box-1">
+            <div class="flex-container-top">
+              <div class="top-left">
+                <center><img src="/img/ebuid.png" class="brand-1" /></center>
+              </div>
+              <div class="top-right">
+                <p class="name-brand">ebv.id</p>
+                <p class="add-brand">
+                  Whatever street No.12,<br />
+                  South Purwokerto
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="box-2">
+            <div class="row">
+              <div class="col-sm-3 time-mv blck">08.30am</div>
+              <div class="col-sm-3 time-mv light">10.30am</div>
+              <div class="col-sm-3 time-mv gray">12.00am</div>
+              <div class="col-sm-3 time-mv light">02.00pm</div>
+              <div class="col-sm-3 time-mv light">04.30pm</div>
+              <div class="col-sm-3 time-mv gray">07.00pm</div>
+              <div class="col-sm-3 time-mv light">08.30pm</div>
+            </div>
+            <div class="price-usd">
+              <div class="row">
+                <div class="col-sm-6 prc">Price</div>
+                <div class="col-sm-6 usd">$10.00/seat</div>
+              </div>
+            </div>
+            <div class="flex-container-bottom">
+              <div class="bottom-left">
+                <a href="#" type="button" class="btn btn-primary shadow"
+                  >Book Now</a
+                >
+              </div>
+              <div class="bottom-right">
+                <a href="#" type="button" class="cart">Add to cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 shadow col-1">
+          <div class="box-1">
+            <div class="flex-container-top">
+              <div class="top-left">
+                <center><img src="/img/cineone.png" class="brand-2" /></center>
+              </div>
+              <div class="top-right">
+                <p class="name-brand">CineOne21</p>
+                <p class="add-brand">Downcare street No. 21, East Purwokerto</p>
+              </div>
+            </div>
+          </div>
+          <div class="box-2">
+            <div class="row">
+              <div class="col-sm-3 time-mv blck">08.30am</div>
+              <div class="col-sm-3 time-mv light">10.30am</div>
+              <div class="col-sm-3 time-mv gray">12.00am</div>
+              <div class="col-sm-3 time-mv light">02.00pm</div>
+              <div class="col-sm-3 time-mv light">04.30pm</div>
+              <div class="col-sm-3 time-mv gray">07.00pm</div>
+              <div class="col-sm-3 time-mv light">08.30pm</div>
+            </div>
+            <div class="price-usd">
+              <div class="row">
+                <div class="col-sm-6 prc">Price</div>
+                <div class="col-sm-6 usd">$10.00/seat</div>
+              </div>
+            </div>
+            <div class="flex-container-bottom">
+              <div class="bottom-left">
+                <a href="#" type="button" class="btn btn-primary shadow"
+                  >Book Now</a
+                >
+              </div>
+              <div class="bottom-right">
+                <a href="#" type="button" class="cart">Add to cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 shadow col-1">
+          <div class="box-1">
+            <div class="flex-container-top">
+              <div class="top-left">
+                <center><img src="/img/hiflix.png" class="brand-3" /></center>
+              </div>
+              <div class="top-right">
+                <p class="name-brand">hiflix Cinema</p>
+                <p class="add-brand">Colonel street No. 2, East Purwokerto</p>
+              </div>
+            </div>
+          </div>
+          <div class="box-2">
+            <div class="row">
+              <div class="col-sm-3 time-mv blck">08.30am</div>
+              <div class="col-sm-3 time-mv light">10.30am</div>
+              <div class="col-sm-3 time-mv gray">12.00am</div>
+              <div class="col-sm-3 time-mv light">02.00pm</div>
+              <div class="col-sm-3 time-mv light">04.30pm</div>
+              <div class="col-sm-3 time-mv gray">07.00pm</div>
+              <div class="col-sm-3 time-mv light">08.30pm</div>
+            </div>
+            <div class="price-usd">
+              <div class="row">
+                <div class="col-sm-6 prc">Price</div>
+                <div class="col-sm-6 usd">$10.00/seat</div>
+              </div>
+            </div>
+            <div class="flex-container-bottom">
+              <div class="bottom-left">
+                <a href="#" type="button" class="btn btn-primary shadow"
+                  >Book Now</a
+                >
+              </div>
+              <div class="bottom-right">
+                <a href="#" type="button" class="cart">Add to cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 shadow col-1">
+          <div class="box-1">
+            <div class="flex-container-top">
+              <div class="top-left">
+                <center><img src="/img/ebuid.png" class="brand-1" /></center>
+              </div>
+              <div class="top-right">
+                <p class="name-brand">ebv.id</p>
+                <p class="add-brand">
+                  Whatever street No.12,<br />
+                  South Purwokerto
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="box-2">
+            <div class="row">
+              <div class="col-sm-3 time-mv blck">08.30am</div>
+              <div class="col-sm-3 time-mv light">10.30am</div>
+              <div class="col-sm-3 time-mv gray">12.00am</div>
+              <div class="col-sm-3 time-mv light">02.00pm</div>
+              <div class="col-sm-3 time-mv light">04.30pm</div>
+              <div class="col-sm-3 time-mv gray">07.00pm</div>
+              <div class="col-sm-3 time-mv light">08.30pm</div>
+            </div>
+            <div class="price-usd">
+              <div class="row">
+                <div class="col-sm-6 prc">Price</div>
+                <div class="col-sm-6 usd">$10.00/seat</div>
+              </div>
+            </div>
+            <div class="flex-container-bottom">
+              <div class="bottom-left">
+                <a href="#" type="button" class="btn btn-primary shadow"
+                  >Book Now</a
+                >
+              </div>
+              <div class="bottom-right">
+                <a href="#" type="button" class="cart">Add to cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 shadow col-1">
+          <div class="box-1">
+            <div class="flex-container-top">
+              <div class="top-left">
+                <center><img src="/img/cineone.png" class="brand-2" /></center>
+              </div>
+              <div class="top-right">
+                <p class="name-brand">CineOne21</p>
+                <p class="add-brand">Downcare street No. 21, East Purwokerto</p>
+              </div>
+            </div>
+          </div>
+          <div class="box-2">
+            <div class="row">
+              <div class="col-sm-3 time-mv blck">08.30am</div>
+              <div class="col-sm-3 time-mv light">10.30am</div>
+              <div class="col-sm-3 time-mv gray">12.00am</div>
+              <div class="col-sm-3 time-mv light">02.00pm</div>
+              <div class="col-sm-3 time-mv light">04.30pm</div>
+              <div class="col-sm-3 time-mv gray">07.00pm</div>
+              <div class="col-sm-3 time-mv light">08.30pm</div>
+            </div>
+            <div class="price-usd">
+              <div class="row">
+                <div class="col-sm-6 prc">Price</div>
+                <div class="col-sm-6 usd">$10.00/seat</div>
+              </div>
+            </div>
+            <div class="flex-container-bottom">
+              <div class="bottom-left">
+                <a href="#" type="button" class="btn btn-primary shadow"
+                  >Book Now</a
+                >
+              </div>
+              <div class="bottom-right">
+                <a href="#" type="button" class="cart">Add to cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 shadow col-1">
+          <div class="box-1">
+            <div class="flex-container-top">
+              <div class="top-left">
+                <center><img src="/img/hiflix.png" class="brand-3" /></center>
+              </div>
+              <div class="top-right">
+                <p class="name-brand">hiflix Cinema</p>
+                <p class="add-brand">Colonel street No. 2, East Purwokerto</p>
+              </div>
+            </div>
+          </div>
+          <div class="box-2">
+            <div class="row">
+              <div class="col-sm-3 time-mv blck">08.30am</div>
+              <div class="col-sm-3 time-mv light">10.30am</div>
+              <div class="col-sm-3 time-mv gray">12.00am</div>
+              <div class="col-sm-3 time-mv light">02.00pm</div>
+              <div class="col-sm-3 time-mv light">04.30pm</div>
+              <div class="col-sm-3 time-mv gray">07.00pm</div>
+              <div class="col-sm-3 time-mv light">08.30pm</div>
+            </div>
+            <div class="price-usd">
+              <div class="row">
+                <div class="col-sm-6 prc">Price</div>
+                <div class="col-sm-6 usd">$10.00/seat</div>
+              </div>
+            </div>
+            <div class="flex-container-bottom">
+              <div class="bottom-left">
+                <a href="#" type="button" class="btn btn-primary shadow"
+                  >Book Now</a
+                >
+              </div>
+              <div class="bottom-right">
+                <a href="#" type="button" class="cart">Add to cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <center>
+        <div class="btn-btnbottom">
+          <a href="#" type="button" class="lght btn btn-outline-light">1</a>
+          <a href="#" type="button" class="lght btn btn-outline-light">2</a>
+          <a href="#" type="button" class="lght btn btn-outline-light">3</a>
+          <a href="#" type="button" class="lght btn btn-outline-light">4</a>
+        </div>
+      </center>
+    </div>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-3">
+            <img src="/img/logo-header.png" class="img-footer" />
+            <div class="text-note">
+              Stop waiting in line. Buy tickets<br />
+              conveniently, watch movies quietly.
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="flex-container-2">
+              <div class="col-one"><strong>Explore</strong></div>
+              <div class="col-two">Cinemas</div>
+              <div class="col-three">Movies list</div>
+              <div class="col-four">My Ticket</div>
+              <div class="col-five">Notification</div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="flex-direction-3">
+              <div class="col-one"><strong>Our Sponsor</strong></div>
+              <div class="col-two-img"><img src="/img/1.png" alt="" /></div>
+              <div class="col-three-img"><img src="/img/2.png" alt="" /></div>
+              <div class="col-four-img"><img src="/img/3.png" alt="" /></div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="flex-container-4">
+              <div class="col-one"><strong>Folow us</strong></div>
+              <div class="col-two-logo">Tickitz Cinema id</div>
+              <div class="col-three-logo">tickitz.id</div>
+              <div class="col-four-logo">tickitz.id</div>
+              <div class="col-five-logo">Tickitz Cinema id</div>
+            </div>
+          </div>
+        </div>
+        <div class="copyright text-center">
+          <p>© 2020 Tickitz. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"
+    integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js"
+    integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc"
+    crossorigin="anonymous"
+  ></script>
+</html>
