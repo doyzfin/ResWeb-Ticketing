@@ -150,3 +150,8 @@
 form {
   margin-top: 60px;
 }
+@media (max-width: 768px) {
+  .col-sm-8 {
+    display: none;
+  }
+}

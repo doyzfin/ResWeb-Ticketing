@@ -1,0 +1,319 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+/* NAVBAR AND FOOTER */
+.home-nav,
+.ticket-nav,
+.film-nav {
+  margin: 15px;
+  font-family: "Mulish", sans-serif;
+  color: #414141;
+  font-weight: 600 !important;
+}
+
+.loc-nav,
+.src-nav,
+.btn-nav {
+  margin: 15px;
+}
+.loc-nav a,
+.btn-nav a {
+  font-family: "Mulish", sans-serif;
+  color: #414141;
+  text-decoration: none;
+  font-weight: 600 !important;
+}
+.sign-in {
+  background-color: #5f2eea !important;
+}
+.sign-in:hover {
+  background-color: #4f4eea !important;
+}
+.sign-in a {
+  text-decoration: none;
+  color: white;
+  margin-left: 12px;
+  margin-right: 12px;
+  font-size: 14px;
+}
+.sign-in a:hover {
+  color: black;
+}
+.text-note {
+  font-family: "Mulish", sans-serif;
+  color: #6e7191;
+  font-size: 16px;
+  margin-top: 25px;
+  line-height: 25px;
+  margin-bottom: 45px;
+  font-weight: 400 !important;
+}
+.col-two-logo::before {
+  content: url("/img/4.png");
+  margin-right: 12px;
+}
+.col-three-logo::before {
+  content: url("/img/instagram.png");
+  margin-right: 12px;
+}
+.col-four-logo::before {
+  content: url("/img/5.png");
+  margin-right: 12px;
+}
+.col-five-logo::before {
+  content: url("/img/youtube.png");
+  margin-right: 12px;
+}
+.col-five-logo {
+  margin-bottom: 45px;
+}
+.copyright p {
+  font-family: "Mulish", sans-serif;
+  color: #6e7191;
+  font-size: 14px;
+  font-weight: 400 !important;
+}
+.flex-container-2 {
+  flex-direction: column;
+  display: flex;
+  flex-wrap: wrap;
+}
+.flex-container-3 {
+  flex-direction: column;
+  display: flex;
+  flex-wrap: wrap;
+}
+.col-one {
+  flex: 1;
+  margin-bottom: 10px;
+  font-family: "Mulish", sans-serif;
+}
+.flex-container {
+  display: flex;
+}
+.col-two,
+.col-three,
+.col-four,
+.col-five {
+  flex: 1;
+  font-family: "Mulish", sans-serif;
+  color: #4e4b66;
+  line-height: 28px;
+  font-size: 14px;
+  font-weight: 400 !important;
+}
+.col-five {
+  margin-bottom: 45px;
+}
+.col-two-img,
+.col-three-img,
+.col-four-img {
+  margin-top: 18px;
+}
+.col-four-img {
+  margin-bottom: 45px;
+}
+.col-two-logo,
+.col-three-logo,
+.col-four-logo,
+.col-five-logo {
+  margin-top: 18px;
+  font-family: "Mulish", sans-serif;
+  color: #6e7191;
+  font-weight: 600px !important;
+}
+.flex-right {
+  margin-top: 25px;
+}
+.img-pp {
+  padding-bottom: 10px;
+}
+.left-img {
+  padding-right: 28px !important;
+}
+.right-img {
+  padding-left: 28px !important;
+}
+
+/* CSS ORDER */
+
+/* COL8 */
+/* COL4 */
+
+.box-order {
+  margin-top: 24px;
+  padding: 0px 24px;
+  border-radius: 15px;
+  background-color: white;
+}
+.img-order {
+  margin-top: 39px;
+  margin-bottom: 13px;
+}
+.order {
+  font-family: "Mulish", sans-serif;
+  font-weight: 700 !important;
+  font-size: 24px;
+}
+.logo-note {
+  font-family: "Mulish", sans-serif;
+  font-weight: 600 !important;
+  font-size: 24px;
+  margin-bottom: 32px;
+}
+.mv-select {
+  font-family: "Mulish", sans-serif;
+  font-weight: 400 !important;
+  font-size: 14px;
+  color: #6b6b6b;
+}
+.mv-name {
+  font-family: "Mulish", sans-serif;
+  font-weight: 600 !important;
+  font-size: 14px;
+  text-align: end;
+}
+
+.total-pym {
+  font-family: "Mulish", sans-serif;
+  font-weight: 600 !important;
+  font-size: 18px;
+}
+.pym {
+  font-family: "Mulish", sans-serif;
+  font-weight: 700 !important;
+  font-size: 24px;
+  color: #5f2eea;
+  text-align: end;
+}
+.box-dtls {
+  border-bottom: 1px solid #e6e6e6;
+  padding-bottom: 32px;
+  margin-bottom: 32px;
+}
+.text-select {
+  font-family: "Mulish", sans-serif;
+  font-weight: 700 !important;
+  font-size: 24px;
+  margin-top: 40px;
+}
+
+.ctn-row {
+  background-color: #f5f6f8;
+}
+.button-top {
+  background-color: white;
+  padding: 37px 48px;
+  border-radius: 15px;
+}
+.button-top-1 {
+  background-color: white;
+  padding: 107px 110px;
+  border-radius: 15px;
+}
+.name-m {
+  font-family: "Mulish", sans-serif;
+  font-weight: 700 !important;
+  font-size: 24px;
+}
+.btn-cng {
+  background-color: #eff0f6 !important;
+  border-color: #eff0f6 !important;
+  color: #5f2eea !important;
+  padding: 8px 10px !important;
+  font-family: "Mulish", sans-serif;
+  font-weight: 700 !important;
+  font-size: 24px;
+  border-radius: 12px !important;
+  float: right;
+}
+.box-of-all {
+  padding: 12px;
+}
+.text-screen {
+  font-family: "Mulish", sans-serif;
+  font-weight: 600 !important;
+  font-size: 14px;
+  color: #4e4b66;
+  text-align: center;
+}
+.box-screen {
+  background-color: #9570fe;
+  width: 532px;
+  height: 8px;
+  border-radius: 8px;
+}
+.seat-note {
+  font-family: "Mulish", sans-serif;
+  font-weight: 600 !important;
+  font-size: 18px;
+  margin-top: 32px;
+  margin-bottom: 20px;
+}
+.ava {
+  font-family: "Mulish", sans-serif;
+  font-weight: 600 !important;
+  font-size: 14px;
+  color: #4e4b66;
+}
+.box-3-one {
+  margin-right: 12px;
+  width: 26px;
+  height: 26px;
+  background-color: #fcfdfe !important;
+  border-radius: 4px;
+}
+.box-3-two {
+  margin-right: 12px;
+  width: 26px;
+  height: 26px;
+  background-color: #5f2eea !important;
+  border-radius: 8px;
+}
+.box-3-three {
+  margin-right: 5px;
+  width: 26px;
+  height: 26px;
+  background-color: #f589d7 !important;
+  border-radius: 8px;
+}
+.box-3-four {
+  margin-right: 12px;
+  width: 26px;
+  height: 26px;
+  background-color: #6e7191 !important;
+  border-radius: 8px;
+}
+.chng {
+  border-color: #5f2eea !important;
+  width: 80%;
+  border-radius: 16px !important;
+  padding: 14px !important;
+  font-family: "Mulish", sans-serif;
+  font-weight: 700 !important;
+  font-size: 16px;
+  color: #5f2eea !important;
+}
+.chech {
+  font-family: "Mulish", sans-serif;
+  font-weight: 600 !important;
+  font-size: 14px;
+  border-color: #5f2eea !important;
+  background-color: #5f2eea !important;
+  width: 80%;
+  float: right;
+  border-radius: 16px !important;
+  padding: 14px !important;
+}
+.bottom-button {
+  margin-top: 40px !important;
+  margin-bottom: 64px !important;
+}
