@@ -4,7 +4,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
-
+@media (max-width: 567px) {
+  .colo-flex {
+    width: 100%;
+    padding: 0px !important;
+    margin: 0px !important;
+  }
+  .lion {
+    margin-right: 0px !important;
+  }
+  .spd {
+    margin-right: 0px !important;
+  }
+}
 * {
   padding: 0px;
   margin: 0px;
@@ -68,9 +80,10 @@
 .home-nav,
 .ticket-nav,
 .film-nav {
-  margin: 15px;
+  margin: 16px;
   font-family: "Mulish", sans-serif;
   color: #414141;
+  font-weight: 600 !important;
 }
 
 .loc-nav,
@@ -83,6 +96,8 @@
   font-family: "Mulish", sans-serif;
   color: #414141;
   text-decoration: none;
+  font-weight: 600 !important;
+  font-size: 16px;
 }
 .sign-in {
   background-color: #5f2eea !important;
