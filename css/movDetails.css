@@ -99,6 +99,7 @@
 .flex-container {
   display: flex;
 }
+
 .col-two,
 .col-three,
 .col-four,
@@ -143,6 +144,10 @@
   padding-left: 28px !important;
 }
 /* MOVIE DETAILS */
+.rw-up {
+  margin-top: 40px !important;
+}
+
 .mv-spd {
   padding: 47.58px 47.64px !important;
   border-radius: 12px !important;
@@ -229,14 +234,10 @@
   font-family: "Mulish", sans-serif;
   font-weight: 600 !important;
   color: #4e4b66 !important;
-  padding-right: 120px !important;
+
   font-size: 16px;
 }
-.date-btn::before {
-  content: url("/img/calendar-interface-symbol-tool.png");
 
-  margin-right: 12px;
-}
 .box-button {
   margin-bottom: 72px;
 }
@@ -310,7 +311,7 @@
 }
 .col-1 {
   border-radius: 15px;
-  padding: 15px !important;
+
   margin-bottom: 32px;
 }
 .brand-1 {
@@ -356,4 +357,19 @@
 .bottom-left,
 .bottom-right {
   flex: 1;
+}
+.book:hover {
+  margin-top: 32px;
+  padding: 10px 12px;
+  width: 70%;
+  font-family: "Mulish", sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  background-color: #4722af !important;
+  border-color: #4722af !important;
+}
+@media (max-width: 512px) {
+  /* .col-1 {
+    overflow-x: scroll;
+  } */
 }

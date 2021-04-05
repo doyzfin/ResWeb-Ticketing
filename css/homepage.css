@@ -21,8 +21,21 @@
     display: none;
   }
   .colo-flex {
-    padding: 20px 0px !important;
+    padding: 20px 10px !important;
     margin: 138px 0px !important;
+  }
+  .img-all {
+    margin-bottom: 45px;
+    overflow-x: scroll;
+  }
+  .row-img {
+    overflow-x: scroll;
+  }
+  .inpt {
+    float: left !important;
+  }
+  .form-control {
+    width: 100% !important;
   }
 }
 * {
@@ -313,9 +326,10 @@
   font-family: "Mulish", sans-serif;
   font-weight: 600 !important;
   height: 50px;
-  margin-left: 120px;
+  float: right;
   margin-top: 3px;
   border-radius: 12px !important;
+  width: 50%;
 }
 .colo-flex {
   padding: 20px 120px;

@@ -4,14 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/css/movDetails.css" />
+    <title>Payment</title>
+    <link rel="stylesheet" href="/css/payment.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
       crossorigin="anonymous"
     />
-    <title>Movies</title>
   </head>
   <body>
     <nav class="navbar navbar-expand-sm shadow">
@@ -96,99 +96,94 @@
         </div>
       </div>
     </nav>
-    <div class="container-fluid">
-      <div class="row rw-up">
-        <div class="col-sm-4 left-img">
-          <img src="/img/spd.png" class="img-thumbnail mv-spd" />
-        </div>
-        <div class="col-sm-8 right-img">
-          <div class="box-mv">
-            <p class="title-mv">Spider-Man: Homecoming</p>
-            <p class="genre-mv">Adventure, Action, Sci-Fi</p>
-          </div>
-          <div class="box-mv-date">
-            <p class="note-mv-1">Release date</p>
-            <p class="note-mv-2">June 28, 2017</p>
-          </div>
-          <div class="box-mv-time">
-            <p class="note-mv-1">Duration</p>
-            <p class="note-mv-2">2 hours 13 minutes</p>
-          </div>
-          <div class="box-mv-direct">
-            <p class="note-mv-1">Directed by</p>
-            <p class="note-mv-2">Jon Watss</p>
-          </div>
-          <div class="box-mv-cast">
-            <p class="note-mv-1">Casts</p>
-            <p class="note-mv-2">
-              Tom Holland, Michael Keaton, Robert Downey Jr., ...
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="sinopsys">
-        <p class="ttl-sns"><strong>Synopsis</strong></p>
-        <p class="note-sns">
-          Thrilled by his experience with the Avengers, Peter returns home,
-          where he lives with his Aunt May, under the watchful eye of his new
-          mentor Tony Stark, Peter tries to fall back into his normal daily
-          routine - distracted by thoughts of proving himself to be more than
-          just your friendly neighborhood Spider-Man - but when the Vulture
-          emerges as a new villain, everything that Peter holds most important
-          will be threatened.
-        </p>
-      </div>
-    </div>
-    <div class="container-fluid">
-      <div class="show">
-        <p class="text-show text-center">Showtimes and Tickets</p>
-      </div>
-      <div class="box-button">
+    <div class="container-fluid ctn-row">
+      <div class="box-of-all">
         <div class="row">
-          <div class="col-sm-6">
-            <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-              <div class="dropdown-1">
-                <input type="date" class="date-btn btn btn-secondary" >
-
-              </input>
+          <div class="col-sm-8">
+            <h1 class="text-select">Payment Info</h1>
+            <div class="box-one">
+              <div class="row">
+                <div class="col-sm-4">Date & time</div>
+                <div class="col-sm-8 rght">
+                  Tuesday, 07 July 2020 at 02:00pm
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-sm-4">Movie title</div>
+                <div class="col-sm-8 rght">Spider-Man: Homecoming</div>
+              </div>
+              <div class="row">
+                <div class="col-sm-4">Cinema name</div>
+                <div class="col-sm-8 rght">CineOne21 Cinema</div>
+              </div>
+              <div class="row">
+                <div class="col-sm-4">Number of tickets</div>
+                <div class="col-sm-8 rght">3 pieces</div>
+              </div>
+              <div class="row">
+                <div class="col-sm-4">Total payment</div>
+                <div class="col-sm-8 rght">$30,00</div>
+              </div>
+            </div>
+            <h1 class="text-select">Choose a Payment Method</h1>
+            <div class="box-two">
+              <div class="row">
+                <img src="/img/ebuid.png" class="img-thumbnail col-sm-3" />
+                <img src="/img/ebuid.png" class="img-thumbnail col-sm-3" />
+                <img src="/img/ebuid.png" class="img-thumbnail col-sm-3" />
+                <img src="/img/ebuid.png" class="img-thumbnail col-sm-3" />
+                <img src="/img/ebuid.png" class="img-thumbnail col-sm-3" />
+                <img src="/img/ebuid.png" class="img-thumbnail col-sm-3" />
+                <img src="/img/ebuid.png" class="img-thumbnail col-sm-3" />
+                <img src="/img/ebuid.png" class="img-thumbnail col-sm-3" />
+              </div>
+              <p class="pay">Pay via cash. <a href="#">how it work</a></p>
+            </div>
+            <div class="row bottom-button">
+              <div class="col-sm-6">
+                <a href="#" class="btn btn-outline chng">Change your movie</a>
+              </div>
+              <div class="col-sm-6">
+                <a href="#" class="btn btn-primary chech">Checkout</a>
               </div>
             </div>
           </div>
-          <div class="col-sm-6">
-            <div class="dropdown-2">
-              <button type="button" class="loc-btn btn btn-secondary">
-                Purwokerto
-              </button>
-              <button
-                type="button"
-                class="loc-btn-toggle btn btn-lg btn-secondary dropdown-toggle dropdown-toggle-split"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                <span class="visually-hidden">Toggle Dropdown</span>
-              </button>
-              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton2">
-                <li><a class="dropdown-item" href="#">Jakarta</a></li>
-                <li><a class="dropdown-item" href="#">Bogor</a></li>
-                <li><a class="dropdown-item" href="#">Surabaya</a></li>
-              </ul>
-            </div>
+          <div class="col-sm-4">
+            <form>
+              <div class="mb-3">
+                <label for="fullname" class="form-label">Full Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="fullname"
+                  placeholder="Jonas El Rodriguez"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="jonasrodri123@gmail.com"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="phone" class="form-label">Phone Number</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="phone"
+                  placeholder="81445687121"
+                />
+              </div>
+            </form>
+            <button type="button" class="btn btn-lg btn-warning warn" disabled>
+              Fill your data correctly.
+            </button>
           </div>
         </div>
       </div>
-    </div>
-    <div class="container-fluid">
-     Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit fugit debitis nobis porro! Veniam, nulla animi quibusdam cumque vero est, vitae explicabo aspernatur quaerat possimus sequi? Quisquam placeat nisi eius?
-    </div>
-    <div class="container-fluid">
-      <center>
-        <div class="btn-btnbottom">
-          <a href="#" type="button" class="lght btn btn-outline-light">1</a>
-          <a href="#" type="button" class="lght btn btn-outline-light">2</a>
-          <a href="#" type="button" class="lght btn btn-outline-light">3</a>
-          <a href="#" type="button" class="lght btn btn-outline-light">4</a>
-        </div>
-      </center>
     </div>
     <footer>
       <div class="container">
