@@ -9,6 +9,14 @@
   margin: 0px;
   box-sizing: border-box;
 }
+@media (max-width: 512px) {
+  .rw-pay {
+    overflow-x: scroll;
+  }
+}
+.ctn-row {
+  padding: 0px !important;
+}
 /* NAVBAR AND FOOTER */
 .home-nav,
 .ticket-nav,
@@ -98,6 +106,17 @@
 }
 .flex-container {
   display: flex;
+  flex-wrap: wrap;
+}
+.flex-1,
+.flex-2,
+.flex-3,
+.flex-4,
+.flex-5,
+.flex-6,
+.flex-7,
+.flex-8 {
+  flex: 1;
 }
 .col-two,
 .col-three,
@@ -149,10 +168,96 @@
 }
 .rght {
   text-align: right;
+  font-family: "Mulish", sans-serif;
+  font-weight: 400 !important;
+  font-size: 20px;
 }
-.pay {
-  text-align: center;
-}
+
 .box-of-all {
   background-color: #f5f6f8;
+  padding: 70px;
+}
+.left {
+  font-family: "Mulish", sans-serif;
+  font-weight: 400 !important;
+  font-size: 20px;
+  color: #6b6b6b;
+}
+.text-select {
+  font-family: "Mulish", sans-serif;
+  font-weight: 700 !important;
+  font-size: 24px;
+  margin-top: 56px;
+  margin-bottom: 24px;
+}
+.box-one {
+  padding: 24px 40px;
+  background-color: white;
+  border-radius: 6px !important;
+}
+.box-two {
+  padding: 56px 48px;
+  background-color: white;
+  border-radius: 6px !important;
+}
+
+.rw-1,
+.rw-2,
+.rw-3 {
+  border-bottom: 1px solid #e6e6e6;
+  padding-bottom: 24px;
+  padding-top: 24px;
+}
+.rw-4 {
+  padding-bottom: 24px;
+  padding-top: 24px;
+}
+.pay-ttl {
+  font-weight: 600 !important ;
+}
+.pay {
+  font-family: "Mulish", sans-serif;
+  font-weight: 600 !important;
+  font-size: 16px;
+  color: #6e7191;
+  text-align: center;
+}
+.pay a {
+  text-decoration: none;
+  color: #5f2eea;
+}
+.or {
+  font-family: "Mulish", sans-serif;
+  font-weight: 400 !important;
+  font-size: 16px;
+  color: #a0a3bd;
+  text-align: center;
+  margin-top: 32px;
+  margin-bottom: 24px;
+}
+
+.chng {
+  border: 2px solid #5f2eea !important;
+  width: 80%;
+  border-radius: 16px !important;
+  padding: 14px !important;
+  font-family: "Mulish", sans-serif;
+  font-weight: 700 !important;
+  font-size: 16px;
+  color: #5f2eea !important;
+}
+.chech {
+  font-family: "Mulish", sans-serif;
+  font-weight: 600 !important;
+  font-size: 14px;
+  border-color: #5f2eea !important;
+  background-color: #5f2eea !important;
+  width: 80%;
+  float: right;
+  border-radius: 16px !important;
+  padding: 14px !important;
+}
+.bottom-button {
+  margin-top: 51px !important;
+  margin-bottom: 83px;
 }
