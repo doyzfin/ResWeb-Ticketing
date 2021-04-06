@@ -164,7 +164,7 @@
 
 /* CSS */
 .warn {
-  width: 100%;
+  width: 90%;
 }
 .rght {
   text-align: right;
@@ -193,12 +193,12 @@
 .box-one {
   padding: 24px 40px;
   background-color: white;
-  border-radius: 6px !important;
+  border-radius: 24px !important;
 }
 .box-two {
   padding: 56px 48px;
   background-color: white;
-  border-radius: 6px !important;
+  border-radius: 24px !important;
 }
 
 .rw-1,
@@ -260,4 +260,30 @@
 .bottom-button {
   margin-top: 51px !important;
   margin-bottom: 83px;
+}
+
+.warn {
+  background-color: #f4b740;
+  margin: auto;
+}
+.warn::before {
+  content: url("/img/warning.png");
+}
+.box-of-bottom {
+  background-color: white;
+  margin: 0px;
+  padding: 40px 48px;
+  border-radius: 24px;
+}
+.form-label {
+  font-family: "Mulish", sans-serif;
+  font-weight: 400 !important;
+  font-size: 16px;
+  color: #696f79;
+}
+.form-control {
+  font-family: "Mulish", sans-serif;
+  font-weight: 400 !important;
+  font-size: 18px;
+  columns: #4e4b66 !important;
 }
