@@ -171,7 +171,22 @@ form {
 .img-header {
   display: none;
 }
+.col-up {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+}
 @media (max-width: 768px) {
+  .col-up {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    flex-direction: column;
+    flex: 1;
+    margin-right: 10px;
+  }
   .img-header {
     display: inline-block;
   }

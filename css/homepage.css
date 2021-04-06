@@ -5,6 +5,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 @media (max-width: 567px) {
+  .col-up {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+  }
   .lion {
     margin-right: 0px !important;
   }
@@ -33,10 +39,11 @@
   }
   .inpt {
     float: left !important;
+    margin-bottom: 25px;
   }
 }
-.container-search {
-  width: 400px;
+.search {
+  width: 100%;
   margin: auto;
 }
 * {
@@ -44,6 +51,7 @@
   margin: 0px;
   box-sizing: border-box;
 }
+
 /* FLEX */
 .flex-container {
   display: flex;
@@ -327,14 +335,14 @@
   font-family: "Mulish", sans-serif;
   font-weight: 600 !important;
   height: 50px;
-  float: right;
+  /* float: right; */
   margin-top: 3px;
   border-radius: 12px !important;
   width: 50%;
 }
 .colo-flex {
-  padding: 20px 120px;
-  margin: 138px auto;
+  padding: 20px 150px;
+  margin: 138px 170px;
   border-radius: 24px;
 }
 .box-p-2 {

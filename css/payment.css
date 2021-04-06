@@ -13,10 +13,21 @@
   .rw-pay {
     overflow-x: scroll;
   }
+  .box-of-all {
+    padding: 15px !important;
+  }
+  .ctn-row {
+    padding: 0px !important;
+  }
+  .img-all {
+    margin-bottom: 45px;
+    overflow-x: scroll;
+  }
+  /* .chech {
+    float: left;
+  } */
 }
-.ctn-row {
-  padding: 0px !important;
-}
+
 /* NAVBAR AND FOOTER */
 .home-nav,
 .ticket-nav,
@@ -163,9 +174,7 @@
 }
 
 /* CSS */
-.warn {
-  width: 90%;
-}
+
 .rght {
   text-align: right;
   font-family: "Mulish", sans-serif;
@@ -253,7 +262,7 @@
   border-color: #5f2eea !important;
   background-color: #5f2eea !important;
   width: 80%;
-  float: right;
+  /* float: right; */
   border-radius: 16px !important;
   padding: 14px !important;
 }
@@ -263,8 +272,10 @@
 }
 
 .warn {
-  background-color: #f4b740;
-  margin: auto;
+  font-family: "Mulish", sans-serif;
+  font-weight: 400 !important;
+  font-size: 16px;
+  color: #4e4b66;
 }
 .warn::before {
   content: url("/img/warning.png");
@@ -286,4 +297,45 @@
   font-weight: 400 !important;
   font-size: 18px;
   columns: #4e4b66 !important;
+}
+.input-group-text {
+  font-family: "Mulish", sans-serif;
+  font-weight: 400 !important;
+  font-size: 18px;
+  color: #4e4b66 !important;
+  background-color: #dedede !important;
+}
+.input-group-text-btm {
+  background-color: #f4b740;
+}
+.card {
+  /* width: 10px; */
+  height: 56px;
+  padding: 10px !important;
+  border-radius: 16px !important;
+  border: 2px solid #dedede !important;
+  /* margin: 3px; */
+  margin-bottom: 3px;
+}
+.img-img {
+  width: 106px;
+  height: 34px;
+}
+.img-img-pyp {
+  width: 31px;
+  height: 37px;
+}
+.img-img-bri {
+  width: 44px;
+  height: 38px;
+}
+.img-img-gpay {
+  width: 74px;
+  height: 30px;
+}
+.col-up {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-bottom: 15px;
 }

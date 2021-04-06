@@ -281,7 +281,7 @@
   font-family: "Mulish", sans-serif;
   font-weight: 600 !important;
   font-size: 16px;
-  text-align: left;
+  text-align: right;
 }
 .price-usd {
   margin-top: 24px;
@@ -303,7 +303,7 @@
   text-decoration: none;
   color: #5f2eea;
   margin-top: 42px;
-  margin-left: 80px;
+
   text-align: center;
 }
 .box-1 {
@@ -368,8 +368,59 @@
   background-color: #4722af !important;
   border-color: #4722af !important;
 }
+.col-up {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+}
+.col-up-1 {
+  display: flex;
+  text-align: left;
+  justify-content: left;
+  margin: auto;
+}
+.card {
+  width: 381px;
+  height: 350px;
+  padding: 24px;
+  margin: 32px;
+  border: 1px solid #dedede;
+  border-radius: 8px !important;
+}
+.row-up {
+  border-bottom: 0.5px solid #dedede;
+}
+.ebv {
+  padding: 12px;
+}
+.flex-container-card {
+  display: flex;
+  width: 100%;
+}
+.flex-1,
+.flex-2,
+.flex-3,
+.flex-4,
+.flex-5,
+.flex-6 {
+  flex: 1;
+}
 @media (max-width: 512px) {
   /* .col-1 {
     overflow-x: scroll;
   } */
+  .card {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+  }
+
+  .col-up,
+  .col-up-1 {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+  }
 }

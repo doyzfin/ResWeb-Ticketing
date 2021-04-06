@@ -4,6 +4,33 @@
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Mulish:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@media (max-width: 567px) {
+  .box-of-all-1 {
+    overflow-x: scroll;
+  }
+  .flex-1 {
+    flex: 1;
+    overflow-x: scroll;
+  }
+  .button-top-1 {
+    padding: 0px !important;
+  }
+  .col-sm-1 {
+    text-align: center;
+    margin: 0px !important;
+    width: 26px !important;
+    height: 26px !important;
+  }
+  .col-up {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 15px;
+  }
+  .box-order {
+    margin-bottom: 50px !important;
+  }
+}
 * {
   padding: 0px;
   margin: 0px;
@@ -147,7 +174,16 @@
 
 /* COL8 */
 /* COL4 */
-
+.flex-1 {
+  flex: 1;
+}
+.col-sm-1 {
+  background-color: #d6d8e7;
+  margin: 8px;
+  border-radius: 8px;
+  /* width: 26px;
+  height: 26px; */
+}
 .box-order {
   margin-top: 24px;
   padding: 0px 24px;
@@ -309,7 +345,7 @@
   border-color: #5f2eea !important;
   background-color: #5f2eea !important;
   width: 80%;
-  float: right;
+  /* float: right; */
   border-radius: 16px !important;
   padding: 14px !important;
 }
