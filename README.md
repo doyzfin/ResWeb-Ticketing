@@ -1,4 +1,4 @@
-<h1 align='center'>Fastcket.com</h1>
+<h1 align='center'>TwoxOne.com</h1>
   <p align="center">
     <a href="https://alfin-resweb.netlify.app/signin.html">View Demo</a>
     ·
