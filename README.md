@@ -7,7 +7,7 @@
     <a href="https://github.com/oyzfin/Res-Web-Ticketing/pulls">Request Feature</a>
   </p>
 
-![Image Banner](127.0.0.1-Large-Screen-1280x800 (3).jpg)
+![Image Banner](127.0.0.1-Large-Screen-1280x800 (3).png)
 
 ## About The Project
 
