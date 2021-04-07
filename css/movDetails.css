@@ -271,6 +271,9 @@
 .grey {
   color: #a0a3bd;
 }
+.prpl {
+  color: #5f2eea;
+}
 .prc {
   font-family: "Mulish", sans-serif;
   font-weight: 400 !important;
@@ -393,6 +396,12 @@
 }
 .ebv {
   padding: 12px;
+}
+.cine {
+  padding: 18px;
+}
+.hiflix {
+  padding: 15px;
 }
 .flex-container-card {
   display: flex;
