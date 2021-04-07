@@ -371,18 +371,7 @@
   background-color: #4722af !important;
   border-color: #4722af !important;
 }
-.col-up {
-  display: flex;
-  text-align: center;
-  justify-content: center;
-  margin: auto;
-}
-.col-up-1 {
-  display: flex;
-  text-align: left;
-  justify-content: left;
-  margin: auto;
-}
+
 .card {
   width: 381px;
   height: 350px;
