@@ -7,7 +7,7 @@
     <a href="https://github.com/oyzfin/Res-Web-Ticketing/pulls">Request Feature</a>
   </p>
 
-![Image Banner](readme-banner.png)
+![Image Banner](127.0.0.1-Large-Screen-1280x800 (3))
 
 ## About The Project
 
@@ -19,7 +19,7 @@ Grab your ticket faster than anyone.
 
 ## Getting Started
 
-1. Download this Project or you can type `git clone #link_git`
+1. Download this Project or you can type `git clone https://github.com/doyzfin/ResWeb-Ticketing.git`
 2. Open app's directory with your browser
 
 ## License
